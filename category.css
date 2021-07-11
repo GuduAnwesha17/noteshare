@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgba(36,50,214,0.28);
+   /* background-image: url(images/98.-Torea-Bay.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;*/
+     height: 100vh;
+}
+.avtar{
+    max-height:55px;
+    max-width: 55px;
+}
+.avtar img{
+    max-height:100%;
+    max-width:100%;
+}
+
+.profile{
+   
+    margin: 10px 10px; 
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    background-color: #fff;  
+    padding: 20px 50px; 
+    
+    border-left:3px solid #000;
+   /* border-right:5px solid lime;*/
+   
+}
+.profile:hover{
+    background-color: hsl(240, 75%, 98%);
+    
+}

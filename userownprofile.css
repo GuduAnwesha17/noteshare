@@ -1,0 +1,93 @@
+
+
+
+.input_files{
+    width: inherit;
+    padding: 20px 0px;
+    border: 1px solid  #ced4da;;
+}
+
+
+.edit_container{
+    width: 75%;
+    margin-top: 50px;
+}
+.upload_container{
+    width: 75%;
+    margin-top: 50px;
+    border:2px dotted blueviolet;
+    
+}
+input[type='file']{
+    padding: 20px 20px;
+}
+
+.sidebar{
+   /* background: linear-gradient(#243e8e,#1f99fa);*/
+
+
+  
+
+ /*background-color: rgba(36,50,214,0.28);*/
+/* background-color: #F3F3FC;*/
+background-image: url(images/Lavender.jpg);
+background-repeat: no-repeat;
+background-position: center;
+   
+   
+}
+.own_profile{
+    max-height: 95px;
+    max-width:95px;
+    border-radius: 50%;
+
+}
+.own_profile img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.btn_lists li{
+    
+    color: #000;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 0.74rem;
+   
+}
+  
+
+
+.btn_lists li:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+[data-tab-content]{
+    display: none;
+}
+
+
+.active[data-tab-content]{
+    display: block;
+}
+
+
+.edit_container #chng_profile-photo{
+    text-align: center;
+    border-right: 2px solid #ced4da;
+}
+
+.edit_container div input[type='file']{
+    display: none;
+}
+
+.edit_container div label{
+    cursor: pointer;
+  
+}
+.edit_container div label:hover{
+    color:#1f99fa;
+}
+
+ 
